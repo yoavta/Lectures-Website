@@ -12,10 +12,15 @@ const Header = () => (
 
     <div className="options">
       <Link className="option" to="/course">
-         1 אלגברה לינארית
+        1 אלגברה לינארית
       </Link>
-      <Link className="contact" to="/contact">
+
+      <Link className="option" to="/contact">
         צור קשר
+      </Link>
+
+      <Link className="option" to="/signin">
+        התחברות
       </Link>
     </div>
   </div>

@@ -1,22 +1,18 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+
 import './App.css';
-import {Route, Switch} from 'react-router-dom'
 
-import HomePage from './pages/homepage/homepage.component'
-
-const LinearPage = () => (
-  <div>
-    <h1>אלגברה לינארית 1</h1>
-  </div>
-);
+import HomePage from './pages/homepage/homepage.component';
+import CoursePage from './pages/course/course.component';
 
 function App() {
   return (
     <div>
-    <Switch>
-      <Route  excat  path='/linear1' component={LinearPage} />
-      <Route   path='/' component={HomePage} />
-    </Switch>
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/course' component={CoursePage} />
+      </Switch>
     </div>
   );
 }

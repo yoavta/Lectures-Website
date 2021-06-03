@@ -1,10 +1,12 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './header.styles.scss';
-import {ReactComponent as Logo} from '../../assets/school-icon.svg'
+import "./header.styles.scss";
+import { ReactComponent as Logo } from "../../assets/school-icon.svg";
 
-const Header = () => (
+import { auth } from "../../firebase/firebase.utils";
+
+const Header = ({ currentUser }) => (
   <div className="header">
     <Link className="logo-container" to="/">
       <Logo className="logo" />
@@ -19,9 +21,11 @@ const Header = () => (
         צור קשר
       </Link>
 
-      <Link className="option" to="/signin">
+
+      {currentUser ? <div className='option' onClick={()=>auth.signOut()}>התנתק</div> :
+      <Link className="signin" to="/signin">
         התחברות
-      </Link>
+      </Link>}
     </div>
   </div>
 );

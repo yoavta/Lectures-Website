@@ -21,11 +21,15 @@ const Header = ({ currentUser }) => (
         צור קשר
       </Link>
 
-
-      {currentUser ? <div className='option' onClick={()=>auth.signOut()}>התנתק</div> :
-      <Link className="signin" to="/signin">
-        התחברות
-      </Link>}
+      {currentUser ? (
+        <div className="option" onClick={() => auth.signOut()}>
+          התנתק
+        </div>
+      ) : (
+        <Link className="signin" to="/signin">
+          התחברות
+        </Link>
+      )}
     </div>
   </div>
 );

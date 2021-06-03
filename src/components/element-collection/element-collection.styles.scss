@@ -1,0 +1,18 @@
+.element-box {
+    border: black;
+    display:  inline-block;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: center;
+
+  
+    .title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+  
+    .preview {
+      display: flex;
+      justify-content: space-between;
+    }
+  }

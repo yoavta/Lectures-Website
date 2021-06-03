@@ -2,7 +2,7 @@ import React from 'react';
 
 import COURSE_DATA from './course.data';
 
-import CollectionPreview from '../../components/lecture-preview/lecture-preview.jsx';
+import LecturePreview from '../../components/lecture-preview/lecture-preview.jsx';
 
 class CoursePage extends React.Component {
   constructor(props) {
@@ -16,9 +16,9 @@ class CoursePage extends React.Component {
   render() {
     const { collections } = this.state;
     return (
-      <div className='shop-page'>
+      <div className='course-page'>
         {collections.map(({ id, ...otherCollectionProps }) => (
-          <CollectionPreview key={id} {...otherCollectionProps} />
+          <LecturePreview key={id} {...otherCollectionProps} />
         ))}
       </div>
     );

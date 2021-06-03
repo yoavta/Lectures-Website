@@ -1,3 +1,4 @@
+  
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -13,9 +14,10 @@ const Header = ({ currentUser }) => (
     </Link>
 
     <div className="options">
-      <Link className="option" to="/course">
-        1 אלגברה לינארית
-      </Link>
+      <Link className="option" >
+הקורסים שלי       </Link>
+
+
 
       <Link className="option" to="/contact">
         צור קשר

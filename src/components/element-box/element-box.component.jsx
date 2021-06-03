@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './lecture-item.styles.scss';
+import './element-box.component.scss';
 
-const CollectionItem = ({ id, name, typeObject, imageUrl }) => (
-  <div className='lecture-item'>
+const ElementBox = ({ id, name, typeObject, imageUrl }) => (
+  <div className='element-box'>
     <div
       className='image'
       style={{
@@ -17,4 +17,4 @@ const CollectionItem = ({ id, name, typeObject, imageUrl }) => (
   </div>
 );
 
-export default CollectionItem;
+export default ElementBox;

@@ -2,7 +2,7 @@ const COURSE_DATA = [
   {
     id: 1,
     title: 'שיעור ראשון',
-    routeName: 'hats',
+    routeName: 'lecture',
     items: [
       {
         id: 1,

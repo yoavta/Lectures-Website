@@ -10,7 +10,9 @@ body{
     background-attachment: fixed;
 }
 
-
+.header{
+    z-index: 1;
+}
 
 a{
 text-decoration: none;
@@ -22,4 +24,8 @@ box-sizing: border-box;
 
 }
 
+.ui * {
+    direction: rtl;
+    text-align: right;
+  }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import LectureItem from '../lecture-item/lecture-item.component';
-
+// import LectureItemCard from '../card/card.component';
 import './lecture-preview.styles.scss';
 
 const LecturePreview = ({ title, items, routeName}) => (
@@ -15,6 +15,7 @@ const LecturePreview = ({ title, items, routeName}) => (
           <LectureItem key={id} {...otherItemProps} />
         ))}
     </div>
+  {/* <LectureItemCard/> */}
   </div>
 );
 

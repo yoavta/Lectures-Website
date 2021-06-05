@@ -8,6 +8,11 @@
   top: 100vh;
   box-sizing:border-box;
   box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color:     #ffffff;
+
 
   .logo-container {
     height: 100%;

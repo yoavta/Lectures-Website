@@ -21,3 +21,4 @@ const MenuItem = ({ lecture, lecturer, imageUrl, history, linkUrl, match }) => (
 );
 
 export default withRouter(MenuItem);
+

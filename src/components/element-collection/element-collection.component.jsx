@@ -9,7 +9,7 @@ const ElementCollection = ({ title, items, routeName}) => (
   <div className='element-collection'>
   <h1>{title}</h1>
 
-    <div className='preview'>
+    <div className='element-boxes'>
       {items
         .map(({ id, ...otherItemProps }) => (
           <ElementBox key={id} {...otherItemProps} />

@@ -10,13 +10,14 @@ class Directory extends React.Component {
             sections: [{
                 lecture: 'לינארית 1',
                 lecturer:'עדי בן צבי',
-                imageUrl: 'https://www.w3resource.com/w3r_images/linear-algebra-image.svg',
+                imageUrl: 'https://csunshinetoday.csun.edu/wp-content/uploads/Math4-web.jpg',
                 id:1,
                 linkUrl: 'linear1'
             },{
                 lecture: 'לינארית 2',
                 lecturer:'עדי בן צבי',
-                imageUrl: 'http://media5.datahacker.rs/2020/03/Picture13-2-913x1024.jpg',
+                imageUrl: 'https://en.ccunesco.ca/-/media/Images/Unesco/Blog/2020/03/International-Day-of-Math.png',
+
                 id:2,
                 linkUrl: 'linear2'
             },{

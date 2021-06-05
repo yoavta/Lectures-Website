@@ -6,58 +6,62 @@ const COURSE_DATA = [
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        typeObject: 25
+        name: 'חלק ראשון - שדות',
+        imageUrl: 'https://i.ytimg.com/vi_webp/beOBM_BFih8/hqdefault.webp',
+        elementUrl: 'beOBM_BFih8',
+        typeObject: 'YouTube'
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        typeObject: 18
+        name: 'חלק שני - מערכות משוואות לינאריות',
+        imageUrl: 'https://i.ytimg.com/vi_webp/_L4nw7kKIAA/hqdefault.webp',
+        elementUrl: '_L4nw7kKIAA',
+        typeObject: 'YouTube'
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        typeObject: 35
+        name: 'חלק שלישי - אלגברת מטריצות',
+        imageUrl: 'https://i.ytimg.com/vi_webp/1rGzrK_OrME/hqdefault.webp',
+        elementUrl: '1rGzrK_OrME',
+        typeObject: 'YouTube'
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        typeObject: 25
-      },
-      {
-        id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        typeObject: 18
-      },
-      {
-        id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        typeObject: 14
-      },
-      {
-        id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        typeObject: 18
-      },
-      {
-        id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        typeObject: 14
-      },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        typeObject: 16
-      }
+        name: 'חלק רביעי - המשך כפל מטריצות, מערכת הומוגנית ולא הומוגנית, שחלוף ועקבה',
+        imageUrl: 'https://i.ytimg.com/vi_webp/U1ZtvtRFEbc/hqdefault.webp',
+        elementUrl: 'U1ZtvtRFEbc',
+        typeObject: 'YouTube'      }
+      //   ,
+      // {
+      //   id: 5,
+      //   name: 'מטריצות הפיכות ואלמנטריות',
+      //   imageUrl: 'https://i.ytimg.com/vi_webp/BeVsaazAVVo/hqdefault.webp',
+      //   elementUrl: 'BeVsaazAVVo',
+      //   typeObject: 'YouTube'      },
+      // {
+      //   id: 6,
+      //   name: 'פולינומים',
+      //   imageUrl: 'https://i.ytimg.com/vi_webp/beOBM_BFih8/hqdefault.webp',
+      //   elementUrl: 'beOBM_BFih8',
+      //   typeObject: 'YouTube'      },
+      // {
+      //   id: 7,
+      //   name: 'שיעור חזרה',
+      //   imageUrl: 'https://i.ytimg.com/vi_webp/beOBM_BFih8/hqdefault.webp',
+      //   elementUrl: 'beOBM_BFih8',
+      //   typeObject: 'YouTube'      },
+      // {
+      //   id: 8,
+      //   name: 'שיעור סיכום',
+      //   imageUrl: 'https://i.ytimg.com/vi_webp/beOBM_BFih8/hqdefault.webp',
+      //   elementUrl: 'beOBM_BFih8',
+      //   typeObject: 'YouTube'      },
+      // {
+      //   id: 9,
+      //   name: 'שיעור פרידה',
+      //   imageUrl: 'https://i.ytimg.com/vi_webp/beOBM_BFih8/hqdefault.webp',
+      //   elementUrl: 'beOBM_BFih8',
+      //   typeObject: 'YouTube'      }
     ]
   },
   {

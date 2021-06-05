@@ -51,11 +51,11 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <>
 
+      <Header className = 'header' currentUser={this.state.currentUser} /> 
      
-        <Header currentUser={this.state.currentUser} /> 
-      <div className="entire-app">
+      <div className="content">
                <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/linear1" component={CoursePage} />
@@ -64,7 +64,7 @@ class App extends React.Component {
 
         </Switch>
       </div>
-      </div>
+      </>
     );
   }
 }

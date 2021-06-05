@@ -1,9 +1,8 @@
-.element-box {
-    border: black;
-    display:  inline-block;
-    flex-direction: column;
+.element-collection {
+    // flex-direction: column;
     margin-bottom: 30px;
     text-align: center;
+
 
   
     .title {
@@ -11,8 +10,9 @@
       margin-bottom: 25px;
     }
   
-    .preview {
-      display: flex;
-      justify-content: space-between;
+    .element-boxes {
+margin: 20px 0;
+      display: center;
+      justify-content: space-around;
     }
   }

@@ -1,6 +1,13 @@
-.entire-app{
+body{
+    background-color: #eef0f1 ;
+
+}
+.content{
+    margin-top: 30px;
     font-family: 'Arimo', sans-serif;
-    padding: 40px 60px;
+    padding: 40px ;
+    background-color: #eef0f1 ;
+    background-attachment: fixed;
 }
 
 

@@ -1,25 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import FormInput from '../form-input/form-input.component';
-import CustomButton from '../custom-button/custom-button.component';
+import FormInput from "../form-input/form-input.component";
+import CustomButton from "../custom-button/custom-button.component";
 
-import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
+import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
 
-import './sign-up.styles.scss';
+import "./sign-up.styles.scss";
 
 class SignUp extends React.Component {
   constructor() {
     super();
 
     this.state = {
-      displayName: '',
-      email: '',
-      password: '',
-      confirmPassword: ''
+      displayName: "",
+      email: "",
+      password: "",
+      confirmPassword: ""
     };
   }
 
-  handleSubmit = async event => {
+  handleSubmit = async (event) => {
     event.preventDefault();
 
     const { displayName, email, password, confirmPassword } = this.state;
@@ -38,24 +38,24 @@ class SignUp extends React.Component {
       await createUserProfileDocument(user, { displayName });
 
       this.setState({
-        displayName: '',
-        email: '',
-        password: '',
-        confirmPassword: ''
+        displayName: "",
+        email: "",
+        password: "",
+        confirmPassword: ""
       });
     } catch (error) {
       console.error(error);
     }
   };
 
-  handleChange = event => {
+  handleChange = (event) => {
     const { name, value } = event.target;
 
     this.setState({ [name]: value });
   };
 
   render() {
-    const { displayName, email, password, confirmPassword } = this.state; 
+    const { displayName, email, password, confirmPassword } = this.state;
     return (
       <div className="sign-up">
         <h2 className="title">אין לי חשבון</h2>
@@ -88,7 +88,7 @@ class SignUp extends React.Component {
             required
           />
 
-      <FormInput
+          <FormInput
             type="password"
             name="confirmPassword"
             value={confirmPassword}
@@ -100,7 +100,7 @@ class SignUp extends React.Component {
           <CustomButton type="submit">הרשם</CustomButton>
         </form>
       </div>
-    )
+    );
   }
 }
 
